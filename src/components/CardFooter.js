@@ -1,5 +1,6 @@
 import React from 'react';
 
+//取得從父組件傳進來的props 即 inputValue
 const CardFooter = (props) => {
   const { inputValue } = props;
 
